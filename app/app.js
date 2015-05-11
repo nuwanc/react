@@ -9,7 +9,7 @@ var data = [
 
 class CommentBoxApp extends React.Component {
     render() {
-        return (<CommentBox url="comments.json"/>);
+        return (<CommentBox url="comments.json" pollInterval={2000}/>);
     }
 }
 

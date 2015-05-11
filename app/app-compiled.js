@@ -32,7 +32,7 @@ var CommentBoxApp = (function (_React$Component) {
     _createClass(CommentBoxApp, [{
         key: 'render',
         value: function render() {
-            return _react2['default'].createElement(_commentBox2['default'], { url: 'comments.json' });
+            return _react2['default'].createElement(_commentBox2['default'], { url: 'comments.json', pollInterval: 2000 });
         }
     }]);
 
