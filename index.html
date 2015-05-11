@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Open Sauce</title>
+
+		<script src="jspm_packages/system.js"></script>
+		<script src="config.js"></script>
+		<script>
+			System.import('jspm_packages/github/twbs/bootstrap@3.3.4/css/bootstrap.min.css!');
+			System.import('app/main');
+		</script>
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"><section id="repoList"></section></div>
+			<div class="col-md-6"><section id="userList"></section></div>
+		</div>
+	</div>
+	</body>
+</html>

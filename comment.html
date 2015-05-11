@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open Sauce</title>
+
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('jspm_packages/github/twbs/bootstrap@3.3.4/css/bootstrap.min.css!');
+        System.import('app/app');
+    </script>
+    <style>
+        #content {
+            border-radius: 5px 5px 5px 5px;
+            -moz-border-radius: 5px 5px 5px 5px;
+            -webkit-border-radius: 5px 5px 5px 5px;
+            border: 1px solid #000000;
+            background: #dedcd7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div id="content"></div>
+        </div>
+    </div>
+</body>
+</html>
